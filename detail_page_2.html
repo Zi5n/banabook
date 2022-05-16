@@ -12,7 +12,8 @@
   <title>BOOK MARK</title>
 
   <link rel="stylesheet" href="asset/css/header.css">
-  <link rel="stylesheet" href="asset/css/contents.css">
+  <link rel="stylesheet" href="asset/css/detail_page.css">
+  <link rel="stylesheet" href="asset/css/table_paging.css">
   <link rel="stylesheet" href="asset/css/footer.css">
 
 </head>
@@ -23,14 +24,13 @@
 
   <div class="header">
 
-
     <div class="logo_sec">
       <a href="#"><img class="logo" src="asset/img/logo.png" alt="로고"></a>
     </div>
 
     <div class="navi_sec">
       <ul>
-        <li><a href="#">LOGOUT</a></li>
+        <li><a href="#">LOGIN</a></li>
         <li><a href="#">JOIN</a></li>
         <li><a href="#">MY PAGE</a></li>
         <li><a href="#">CART</a></li>
@@ -61,61 +61,121 @@
       </div>
     </div>
 
-    <!-- 메인배너 -->
+    <!-- 썸네일 및 가격 정보 -->
 
-    <div class="wrap">
-      <div class="banner_sec">
-        <img class="banner" src="asset/img/banner.jpg" alt="메인배너">
-        
-        <div class="arr">
-          <a href="#"><img class="banner_arr_l" src="asset/img/arrow_l.png" alt="왼쪽화살표"></a>
-          <a href="#"><img class="banner_arr_r" src="asset/img/arrow_r.png" alt="오른쪽화살표"></a>
-        </div>
-      </div>
+    
 
+    <div class="thum">
+      <img src="asset/img/detail_thum/1.jpg" alt="미드나잇">
 
-      <!-- 베스트셀러 -->
+      <div class="item_info">
 
-      <div class="best_item">
+        <ul>
+          <div class="good_bt">
+            <img src="asset/img/good.png" alt="좋아요버튼">
+          </div>
 
-        <div class="best">&nbsp; · BEST</div>
+          <li>MID NIGHT</li>
+          <li>0</li>
+          <li>수량</li>
+          <li><input type="number" name="quantity" min="1" max="99" step="1" value="1"></li>
+        </ul>
 
-        <div class="best_item_ul">
-          <ul>
-            <li><img src="asset/img/dummy300400.jpg" alt="이미지"></li>
-            <div>
-              <li>title</li>
-              <li>0</li>
-            </div>
-          </ul>
-
-          <ul>
-            <li><img src="asset/img/dummy300400.jpg" alt="이미지"></li>
-            <div>
-              <li>title</li>
-              <li>0</li>
-            </div>
-          </ul>
-
-          <ul>
-            <li><img src="asset/img/dummy300400.jpg" alt="이미지"></li>
-            <div>
-              <li>title</li>
-              <li>0</li>
-            </div>
-          </ul>
-
-          <ul>
-            <li><img src="asset/img/dummy300400.jpg" alt="이미지"></li>
-            <div>
-              <li>title</li>
-              <li>0</li>
-            </div>
-          </ul>
+        <div class="cart_buy">
+          <input class="cart" type="submit" value="장바구니">
+          <input class="buy" type="submit" value="바로구매">
         </div>
       </div>
     </div>
   </div>
+
+
+  <!-- 리스트 본문 -->
+
+  <div class="wrap">
+
+    <hr>
+
+    <div class="page_img">
+      <img src="asset/img/detail_thum/1-1.jpg" alt="미드나잇">
+    </div>
+
+    <hr>
+
+    <!-- QnA -->
+
+    <div class="review_sec">
+
+      <h2>review</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th>제목</th>
+            <th>작성자</th>
+            <th>작성일</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><a href="#">배송이 빨라서 좋아요</a></td>
+            <td>user</td>
+            <td>0000-00-00</td>
+          </tr>
+
+          <tr>
+            <td><a href="#">배송이 빨라서 좋아요</a></td>
+            <td>user</td>
+            <td>0000-00-00</td>
+          </tr>
+
+          <tr>
+            <td><a href="#">배송이 빨라서 좋아요</a></td>
+            <td>user</td>
+            <td>0000-00-00</td>
+          </tr>
+
+          <tr>
+            <td><a href="#">배송이 빨라서 좋아요</a></td>
+            <td>user</td>
+            <td>0000-00-00</td>
+          </tr>
+
+          <tr>
+            <td><a href="#">배송이 빨라서 좋아요</a></td>
+            <td>user</td>
+            <td>0000-00-00</td>
+          </tr>
+        </tbody>
+
+      </table>
+
+    </div>
+
+
+    <div class="item_page">
+      <div class="item_sec">
+        <a href="#"><img class="arrow_b_l" src="asset/img/arrow_b_l.png" alt="왼쪽화살표"></a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#"><img class="arrow_b_r" src="asset/img/arrow_b_r.png" alt="오른쪽화살표"></a>
+      </div>
+
+      <div class="edit_bt">
+        <input type="submit" value="등록하기"></input>
+      </div>
+    </div>
+  </div>
+
+
+
+  </div>
+
+
 
   <!-- 풋터 -->
 
