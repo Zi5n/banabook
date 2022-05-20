@@ -1,6 +1,6 @@
 .contents {
   width: 1280px;
-  height: 1200px;
+  height: 1100px;
   margin: auto;
   display: flex;
 }
@@ -37,21 +37,31 @@
   margin-top: 30px;
 }
 
-.best_item_ul {
-  display: flex;
-  justify-content: space-between;
+.best_item_list {
   text-align: center;
+  display: grid;
+	grid-template-columns: repeat(4, 230px);
+	grid-template-rows: repeat(4, 300px);
+	column-gap: 30px;
+	row-gap: 50px;
 }
 
-.best_item ul img {
+.best_item img {
   width: 200px;
   height: 250px;
 }
 
-.best_item_ul div {
-  padding: 10px 0;
-  margin-bottom: 30px;
+.item_info {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
 }
+
+.items {
+  width: 200px;
+  height: 300px;
+}
+
 
 /* 페이징 */
 
@@ -70,7 +80,7 @@
   padding-left: 20px;
 }
 
-.arrow_b_r {
+.arrow_b_r, .arrow_b_l {
   width: 15px;
   height: 15px;
 }
