@@ -1,9 +1,3 @@
-.contents {
-  width: 1280px;
-  margin: auto;
-  display: flex;
-}
-
 /* 사이드 메뉴 */
 
 .aside {
@@ -29,7 +23,6 @@
   background-color: #173153;
   color: #fff;
 }
-
 
 /* 메인배너 */
 
