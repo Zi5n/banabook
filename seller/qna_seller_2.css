@@ -1,0 +1,93 @@
+.mypage {
+  width: 1000px;
+  height: 800px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.mypage h2 {
+  padding-left: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.write_sec, .write_sec_2 {
+  width: 900px;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.write_sec div:nth-child(2), .write_sec_2 div:nth-child(2) {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+/* 판매자 답변 등록 */
+
+.answer {
+  width: 900px;
+  display: flex;
+  margin: auto;
+}
+
+.answer div {
+  padding: 20px 0 30px 0;
+}
+
+.answer button {
+  padding: 5px 10px;
+  background-color: #173153;
+  border: #173153;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  left: 400px;
+}
+
+.answer div:nth-child(1) {
+  width: 100px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* 판매자 답변 기재 */
+
+.seller_answer {
+  width: 900px;
+  display: flex;
+  margin: auto;
+}
+
+.seller_answer div:nth-child(1) {
+  width: 100px;
+  margin: auto;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.seller_answer input:nth-child(1) {
+  width: calc(900px - 400px);
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 50px;
+  border: 2px solid #173153;
+  border-radius: 5px;
+  font-size: 15px;
+  position: relative;
+  left: 50px;
+}
+
+.seller_answer input:nth-child(2) {
+  padding: 10px 25px;
+  background-color: #173153;
+  border: #173153;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  left: 50px;
+}
